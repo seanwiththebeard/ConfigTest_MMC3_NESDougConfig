@@ -13,6 +13,10 @@ typedef unsigned char byte;	// 8-bit unsigned
 typedef signed char sbyte;	// 8-bit signed
 typedef unsigned short word;	// 16-bit signed
  
+//Uncomment this below line and recomment it to fix the error...
+//I don't completely understand what's going on here
+////#link "crt0.s"
+
 //#resource "crt0.s"
 //#resource "neslib.s"
 //#resource "famitone2.sinc"
